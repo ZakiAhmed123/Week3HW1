@@ -11,11 +11,11 @@ def check_age
   if choice < 18
     return "I can do Nothing"
   elsif choice >=18 && choice <21
-    return "I can Vote & I can Smoke "
+    return "I can Vote, I can Smoke "
   elsif choice >= 21 && choice <25
-    return "I can Drink"
+    return "I can Drink, I can Smoke, I can Vote"
   elsif choice >=25
-    return "I can rent a Car"
+    return " I can rent a Car, I can Smoke, I can Vote"
 end
 end
 puts check_age
